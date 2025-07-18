@@ -1,0 +1,13 @@
+--[[
+		Uses basic if statement to return correct colour
+
+		code size: 17
+		cycles / voxel: 4.667
+ ]]
+
+if y >= 2 then 
+	return RED 
+elseif y > -2 then
+  return YELLOW
+end
+return GREEN

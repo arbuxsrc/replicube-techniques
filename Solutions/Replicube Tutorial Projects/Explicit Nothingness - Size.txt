@@ -1,0 +1,6 @@
+--[[
+		code size: 13
+		cycles / voxel: 5.918
+ ]]
+return (z<0 or x<0) and RED + y
+
