@@ -1,0 +1,7 @@
+--[[
+		Avoids lots of if statements
+		
+		code size: 19
+		cycles / voxel: 8.983
+ ]]
+return abs(z)<2 and(abs(x)==2 or abs(y)==2)
