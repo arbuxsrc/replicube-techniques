@@ -1,7 +1,0 @@
---[[
-		code size: 16
-		cycles / voxel: 3.691
- ]]
-if y > 0 and x > 0 and z > 0 then
-	return 5
-end

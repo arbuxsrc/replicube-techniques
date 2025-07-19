@@ -1,9 +1,0 @@
---[[
-		Uses basic if statement to return either colour
-
-		code size: 10
-		cycles / voxel: 4.000
- ]]
-
-if y<=0 then return ORANGE end
-return DARKBLUE

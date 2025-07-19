@@ -1,5 +1,0 @@
---[[
-		code size: 12
-		cycles / voxel: 13.921
- ]]
-return sign(min(y,x,z)) * 5

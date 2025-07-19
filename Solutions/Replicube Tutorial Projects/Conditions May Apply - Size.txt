@@ -1,8 +1,0 @@
---[[
-		Avoids lots of if statements
-		
-		code size: 8
-		cycles / voxel: 4.429
- ]]
-
-return y > 0 and DARKBLUE or ORANGE

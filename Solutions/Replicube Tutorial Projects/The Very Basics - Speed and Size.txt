@@ -1,9 +1,0 @@
---[[
- Simple cube, all red, so every vertex can be assigned
- the color RED
-
- code size: 2
- cycles / voxel: 3.000
-]]
-return RED
-
