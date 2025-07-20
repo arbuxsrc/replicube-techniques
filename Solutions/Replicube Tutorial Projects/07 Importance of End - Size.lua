@@ -3,13 +3,14 @@ Author: Roger
 Created: 19 Jul 2025
 Description: 
  
-Size: 63
-Cycles per Voxel: 26.270
+Size: 53
+Cycles per Voxel: 23.781
 
 ]]
 
-col=1-sign(x*y*z)
-col2 = col<=0 and 0 or
-	((abs(x)==1 or abs(y)==1 or abs(z)==1) and 1 or 0)
+xyz = sign(x*y*z)
 
-return col2
+return xyz==0
+		or min(abs(x),abs(y),abs(z))~=1
+		and (x > 0 and (y>0 and LIGHTGREEN or BLUE) 
+				or y>0 and RED or YELLOW) * xyz
