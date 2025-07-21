@@ -9,8 +9,7 @@ Cycles per Voxel:15.209
 
 ]]
 
-diff=btoi(z>0)
-return z==0 and 3 
-	or x == -y and LIGHTGREEN-diff
-	or x==y and PURPLE-diff
-		
+DIFF=btoi(z>0)
+return z==0 and 3
+	or x == -y and LIGHTGREEN-DIFF
+	or x==y and PURPLE-DIFF

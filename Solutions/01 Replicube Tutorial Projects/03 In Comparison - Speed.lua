@@ -7,8 +7,8 @@ Size: 17
 Cycles per Voxel: 4.667
  ]]
 
-if y >= 2 then 
-	return RED 
+if y >= 2 then
+	return RED
 elseif y > -2 then
   return YELLOW
 end

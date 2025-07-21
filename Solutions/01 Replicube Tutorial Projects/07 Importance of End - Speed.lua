@@ -14,7 +14,7 @@ if y==0 or x==0 or z==0 then
 end
 
 if x>1 then
-	if y<-1 and z<-1 then	return BLUE end
+	if y<-1 and z<-1 then return BLUE end
 	if y>1 and z>1 then return LIGHTGREEN end
 end
 if x<-1 then

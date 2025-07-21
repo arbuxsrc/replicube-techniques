@@ -1,0 +1,23 @@
+{
+    "Lua.diagnostics.globals": [
+        "RED",
+        "y",
+        "DARKBLUE",
+        "ORANGE",
+        "YELLOW",
+        "GREEN",
+        "z",
+        "x",
+        "sign",
+        "min",
+        "abs",
+        "WHITE",
+        "LIGHTGREEN",
+        "BLUE",
+        "max",
+        "PURPLE",
+        "btoi",
+        "BLACK",
+        "PINK"
+    ]
+}
