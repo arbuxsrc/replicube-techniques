@@ -19,6 +19,8 @@
         "btoi",
         "BLACK",
         "PINK",
-        "BROWN"
+        "BROWN",
+        "inrange",
+        "PEACH"
     ]
 }
