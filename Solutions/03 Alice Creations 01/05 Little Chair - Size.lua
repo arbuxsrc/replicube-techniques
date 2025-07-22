@@ -2,8 +2,8 @@
     Author: Roger
     Created: 2025-07-21
     Description: This approach creates a solid orange block but removes portions of the block
-    Size: 57
-    Cycles per Voxel: 12.096
+    Size: 52
+    Cycles per Voxel: 9.245
 ]]
 return  (
 		y>=0 and z>=0 or
